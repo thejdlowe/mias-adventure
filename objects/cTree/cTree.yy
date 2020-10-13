@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "sTree1",
-    "path": "sprites/sTree1/sTree1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "cTree",
-    "path": "objects/cTree/cTree.yy",
+    "name": "cScrollableObject",
+    "path": "objects/cScrollableObject/cScrollableObject.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"cTree","path":"objects/cTree/cTree.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Trees",
-    "path": "folders/Objects/Trees.yy",
+    "name": "Classes",
+    "path": "folders/Objects/Classes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTree1",
+  "name": "cTree",
   "tags": [],
   "resourceType": "GMObject",
 }

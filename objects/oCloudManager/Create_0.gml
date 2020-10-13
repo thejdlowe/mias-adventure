@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-x += oGameManager.currSpeed;
+minTree = 90;
+maxTree = 180;
 
-if(x <= -50) {
-	instance_destroy();
-	exit;
-}
+alarm[0] = 5;//irandom_range(minTree, maxTree);

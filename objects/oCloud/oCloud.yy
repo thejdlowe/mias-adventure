@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sTree1",
-    "path": "sprites/sTree1/sTree1.yy",
+    "name": "sCloud",
+    "path": "sprites/sCloud/sCloud.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "cTree",
-    "path": "objects/cTree/cTree.yy",
+    "name": "cCloud",
+    "path": "objects/cCloud/cCloud.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Trees",
-    "path": "folders/Objects/Trees.yy",
+    "name": "Clouds",
+    "path": "folders/Objects/Clouds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTree1",
+  "name": "oCloud",
   "tags": [],
   "resourceType": "GMObject",
 }
