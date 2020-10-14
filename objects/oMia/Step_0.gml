@@ -1,5 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(y > 500) {
+	
+	var temp = surface_create(room_width, room_height);
+	surface_set_target(temp);
+	draw_surface(application_surface, 0, 0);
+	surface_reset_target();
+	instance_deactivate_all(false);
+	with (instance_create_layer(x, y, "Managers", oGameOverManager)) {
+		surf = temp;
+	}
+	instance_destroy();
+	exit;
+}
 var playerTryingToJump	=	oControls.jump;
 var playerHoldingJump	=	oControls.jumpHeld;
 

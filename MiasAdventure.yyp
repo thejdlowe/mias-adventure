@@ -7,6 +7,7 @@
     {"id":{"name":"oCloud","path":"objects/oCloud/oCloud.yy",},"order":0,},
     {"id":{"name":"cGround","path":"objects/cGround/cGround.yy",},"order":3,},
     {"id":{"name":"sSky","path":"sprites/sSky/sSky.yy",},"order":2,},
+    {"id":{"name":"oGameOverManager","path":"objects/oGameOverManager/oGameOverManager.yy",},"order":6,},
     {"id":{"name":"oCloudManager","path":"objects/oCloudManager/oCloudManager.yy",},"order":2,},
     {"id":{"name":"oGroundManager","path":"objects/oGroundManager/oGroundManager.yy",},"order":3,},
     {"id":{"name":"sCloud","path":"sprites/sCloud/sCloud.yy",},"order":7,},
