@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "sGround",
-    "path": "sprites/sGround/sGround.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "cGround",
-    "path": "objects/cGround/cGround.yy",
+    "name": "cScrollableObject",
+    "path": "objects/cScrollableObject/cScrollableObject.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oGround","path":"objects/oGround/oGround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"cGround","path":"objects/cGround/cGround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Classes",
+    "path": "folders/Objects/Classes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oGround",
+  "name": "cGround",
   "tags": [],
   "resourceType": "GMObject",
 }

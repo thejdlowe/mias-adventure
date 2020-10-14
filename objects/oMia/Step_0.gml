@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 var playerTryingToJump	=	oControls.jump;
+var playerHoldingJump	=	oControls.jumpHeld;
 
 if(vsp <= 0 && vsp >= -1 && grounded == false && !alarm[0]) {
 	alarm[0] = 1;
@@ -9,15 +10,44 @@ if(vsp <= 0 && vsp >= -1 && grounded == false && !alarm[0]) {
 
 vsp += myGravity;
 
-if(playerTryingToJump && place_meeting(x, y+1, oGround)) {
-	vsp = jumpHeight;
-	vsp_f = 0;
+if(grounded == false) {
+	if(coyote_counter > 0) {
+		coyote_counter--;
+		if(jumped == false) {
+			if(playerTryingToJump) {
+				buffer_counter = buffer_max;
+			}
+		}
+	}
+}
+else {
+	jumped = false;
+	coyote_counter = coyote_max;
+}
+
+
+if(playerTryingToJump) {
+	buffer_counter = buffer_max;
+}
+
+if(buffer_counter > 0) {
+	buffer_counter--;
+	if(place_meeting(x, y+1, oGround)) {
+		vsp = jumpHeight;
+		vsp_f = 0;
+		buffer_counter = 0;
+		jumped = true;
+	}
 }
 vsp += vsp_f;
 vsp_f	=		vsp - (floor(abs(vsp)) * sign(vsp));
 vsp		-=		vsp_f;
 
 vsp = min(vsp, vsp_max);
+
+if(vsp < 0 && !playerHoldingJump) {
+	vsp = max(vsp, -2);
+}
 
 if(place_meeting(x, y+vsp, oGround) && grounded == false) {
 	while(!place_meeting(x, y+sign(vsp), oGround)) {
@@ -43,14 +73,3 @@ else {
 		sprite_index = sMiaDown;
 	}
 }
-
-/*
-if(grounded == true) {
-	sprite_index = sMia;
-}
-else {
-
-		sprite_index = sMiaUp;
-//	}
-}
-*/

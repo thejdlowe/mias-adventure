@@ -4,5 +4,4 @@
 currScore = 0;
 currSpeed = -5;
 
-instance_create_layer(x, y, "Managers", oTreeManager);
-instance_create_layer(x, y, "Managers", oCloudManager);
+alarm[0] = 1;

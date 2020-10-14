@@ -7,4 +7,9 @@ jumpHeight = -8 ;
 myGravity = 0.3;
 normalGravity = myGravity;
 
+buffer_counter = 0;
+buffer_max = 4;
+coyote_counter = 0;
+coyote_max = 6;
+jumped = true;
 grounded = true;
