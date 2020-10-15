@@ -13,7 +13,7 @@ if(genCounter <= 0) {
 		genCounter = irandom_range(5, 15);
 	}
 	else {
-		genCounter = irandom_range(8, 8);
+		genCounter = irandom_range(6, 8);
 	}
 }
 else {

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var groundCount = 20;
+var groundCount = 50;
 demoTimer = 5;
 lastGenerated = "ground";
 genCounter = 0;
@@ -22,4 +22,4 @@ else {
 alarm[0] = 230
 }
 */
-alarm[1] = demoTimer
+alarm[1] = 230

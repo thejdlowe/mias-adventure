@@ -73,7 +73,7 @@ else {
 	grounded = false;
 }
 
-y += vsp;
+//y += vsp;
 
 if(place_meeting(x, y+1, oGround)) {
 	sprite_index = sMia;
