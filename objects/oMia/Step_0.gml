@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(y > 500) {
 	
-	var temp = surface_create(room_width, room_height);
+	var temp = surface_create(display_get_width(), display_get_height());
 	surface_set_target(temp);
 	draw_surface(application_surface, 0, 0);
 	surface_reset_target();
