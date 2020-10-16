@@ -1,6 +1,7 @@
 /// @description Insert description here
-// You can write your code in this editor
-minTree = 90;
-maxTree = 180;
 
-alarm[0] = 5;//irandom_range(minTree, maxTree);
+farCloudMoveMe = 0;
+farCloudLayer = layer_get_id("FarClouds")
+
+nearCloudMoveMe = 0;
+nearCloudLayer = layer_get_id("NearClouds")
