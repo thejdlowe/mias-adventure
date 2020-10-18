@@ -1,14 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var groundCount = 50;
+var groundCount = 55;
 demoTimer = 5;
 lastGenerated = "ground";
 genCounter = 0;
 
 for(var i = 0;i<groundCount;i++) {
 	
-	with (instance_create_layer(32 * i, 384, "Ground", oGround)) {
+	with (instance_create_layer(32 * i, 362, "Ground", oGround)) {
 		myStep = oGameManager.currSpeed;
 	}
 }

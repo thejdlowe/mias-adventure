@@ -62,6 +62,8 @@ if(vsp < 0 && !playerHoldingJump) {
 	vsp = max(vsp, -2);
 }
 
+
+
 if(place_meeting(x, y+vsp, oGround) && grounded == false) {
 	while(!place_meeting(x, y+sign(vsp), oGround)) {
 		y = y + sign(vsp);
@@ -74,6 +76,8 @@ else {
 }
 
 y += vsp;
+
+if(grounded == true && y > 326) y = 326;
 
 if(place_meeting(x, y+1, oGround)) {
 	sprite_index = sMia;

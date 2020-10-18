@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Unused
 // You can write your code in this editor
 var groundCount = 50;
 

@@ -27,11 +27,13 @@ else {
 	whatToGenerate = noone;
 }
 
+//whatToGenerate = oGround;
+
 if(instance_exists(oLogo)) {
 	whatToGenerate = oGround;
 }
 if(whatToGenerate != noone) {
-	with (instance_create_layer(600, 384, "Ground", whatToGenerate)) {
+	with (instance_create_layer(600, 362, "Ground", whatToGenerate)) {
 		myStep = oGameManager.currSpeed;
 	}
 }
