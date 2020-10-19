@@ -10,6 +10,6 @@ if(irandom_range(1, 20) == 1) {
 	}
 }
 
-var count = sprite_get_number(sGround);
+var count = sprite_get_number(sGround1);
 
 image_index = irandom_range(0, count);

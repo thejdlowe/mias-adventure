@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 var groundCount = 55;
-demoTimer = 5;
+demoTimer = 6;
 lastGenerated = "ground";
 genCounter = 0;
 
