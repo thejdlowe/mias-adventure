@@ -80,7 +80,7 @@ y += vsp;
 if(grounded == true && y > 326) y = 326;
 
 if(place_meeting(x, y+1, oGround)) {
-	sprite_index = sMia;
+	sprite_index = sMiaNew;
 }
 else {
 	if(vsp < 0) {

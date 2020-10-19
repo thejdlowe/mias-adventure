@@ -8,6 +8,7 @@
     {"id":{"name":"oCloud","path":"objects/oCloud/oCloud.yy",},"order":0,},
     {"id":{"name":"cGround","path":"objects/cGround/cGround.yy",},"order":3,},
     {"id":{"name":"sSky","path":"sprites/sSky/sSky.yy",},"order":2,},
+    {"id":{"name":"sMiaNew","path":"sprites/sMiaNew/sMiaNew.yy",},"order":18,},
     {"id":{"name":"oGameOverManager","path":"objects/oGameOverManager/oGameOverManager.yy",},"order":6,},
     {"id":{"name":"sTree2","path":"sprites/sTree2/sTree2.yy",},"order":14,},
     {"id":{"name":"oBackgroundManager","path":"objects/oBackgroundManager/oBackgroundManager.yy",},"order":2,},
