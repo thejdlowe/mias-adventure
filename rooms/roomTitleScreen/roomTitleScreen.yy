@@ -14,6 +14,7 @@
   ],
   "layers": [
     {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"oKonamiCode","path":"objects/oKonamiCode/oKonamiCode.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,"resourceVersion":"1.0","name":"inst_5B9AAC2D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_19CC2F93","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Managers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Logo","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -34,6 +35,7 @@
   "instanceCreationOrder": [
     {"name":"inst_19CC2F93","path":"rooms/roomTitleScreen/roomTitleScreen.yy",},
     {"name":"inst_767D2CCD","path":"rooms/roomTitleScreen/roomTitleScreen.yy",},
+    {"name":"inst_5B9AAC2D","path":"rooms/roomTitleScreen/roomTitleScreen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

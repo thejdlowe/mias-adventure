@@ -80,13 +80,31 @@ y += vsp;
 if(grounded == true && y > 326) y = 326;
 
 if(place_meeting(x, y+1, oGround)) {
-	sprite_index = sVivi;
+	if(oGameManager.isVivi != true) {
+		sprite_index = sMiaNew;
+	}
+	else {
+		sprite_index = sVivi;
+	}
+	
 }
 else {
 	if(vsp < 0) {
-		sprite_index = sMiaUp;
+		//sprite_index = sMiaUp;
+		if(oGameManager.isVivi != true) {
+			sprite_index = sMiaUp;
+		}
+		else {
+			sprite_index = sViviUp;
+		}
 	}
 	else {
-		sprite_index = sMiaDown;
+		if(oGameManager.isVivi != true) {
+			sprite_index = sMiaDown;
+		}
+		else {
+			sprite_index = sViviDown;
+		}
+		//sprite_index = sMiaDown;
 	}
 }

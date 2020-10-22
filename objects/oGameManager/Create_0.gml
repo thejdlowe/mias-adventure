@@ -3,5 +3,6 @@
 
 currScore = 0;
 currSpeed = -5;
+isVivi = false;
 
 alarm[0] = 1;

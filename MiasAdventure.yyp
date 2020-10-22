@@ -17,6 +17,7 @@
     {"id":{"name":"sCloud","path":"sprites/sCloud/sCloud.yy",},"order":7,},
     {"id":{"name":"sViviDown","path":"sprites/sViviDown/sViviDown.yy",},"order":21,},
     {"id":{"name":"sTree3","path":"sprites/sTree3/sTree3.yy",},"order":16,},
+    {"id":{"name":"oKonamiCode","path":"objects/oKonamiCode/oKonamiCode.yy",},"order":7,},
     {"id":{"name":"cScrollableObject","path":"objects/cScrollableObject/cScrollableObject.yy",},"order":0,},
     {"id":{"name":"sLogo","path":"sprites/sLogo/sLogo.yy",},"order":9,},
     {"id":{"name":"cTree","path":"objects/cTree/cTree.yy",},"order":1,},
