@@ -45,7 +45,7 @@ if(playerTryingToJump) {
 
 if(buffer_counter > 0) {
 	buffer_counter--;
-	if(place_meeting(x, y+1, oGround)) {
+	if(place_meeting(x, y+1, oGround) && room != roomTitleScreen) {
 		vsp = jumpHeight;
 		vsp_f = 0;
 		buffer_counter = 0;
@@ -80,7 +80,7 @@ y += vsp;
 if(grounded == true && y > 326) y = 326;
 
 if(place_meeting(x, y+1, oGround)) {
-	sprite_index = sMiaNew;
+	sprite_index = sVivi;
 }
 else {
 	if(vsp < 0) {

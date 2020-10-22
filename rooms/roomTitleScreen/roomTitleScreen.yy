@@ -32,8 +32,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_767D2CCD","path":"rooms/roomGame/roomGame.yy",},
-    {"name":"inst_19CC2F93","path":"rooms/roomGame/roomGame.yy",},
+    {"name":"inst_19CC2F93","path":"rooms/roomTitleScreen/roomTitleScreen.yy",},
+    {"name":"inst_767D2CCD","path":"rooms/roomTitleScreen/roomTitleScreen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -61,7 +61,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "roomGame",
+  "name": "roomTitleScreen",
   "tags": [],
   "resourceType": "GMRoom",
 }

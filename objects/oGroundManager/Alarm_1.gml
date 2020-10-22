@@ -27,7 +27,7 @@ else {
 	whatToGenerate = noone;
 }
 
-whatToGenerate = oGround;
+if(room == roomTitleScreen) whatToGenerate = oGround;
 
 if(instance_exists(oLogo)) {
 	whatToGenerate = oGround;

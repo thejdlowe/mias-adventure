@@ -1,10 +1,10 @@
 function display_write_all_specs(_x, _y) {
 	var _str="";
 	_str+="FPS = " + string(fps) + "\n";
-	if(instance_exists(oMia)) {
-		_str+="x = " + string(oMia.x) + "\n";
-		_str+="y = " + string(oMia.y) + "\n";
-		_str+="vsp = " + string(oMia.vsp) + "\n";
+	if(instance_exists(oCat)) {
+		_str+="x = " + string(oCat.x) + "\n";
+		_str+="y = " + string(oCat.y) + "\n";
+		_str+="vsp = " + string(oCat.vsp) + "\n";
 	}
 	/*
 	_str+=display_write_spec(display.Screen)+"\n";
