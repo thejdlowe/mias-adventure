@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 999,
+  "bbox_right": 4,
   "bbox_top": 0,
-  "bbox_bottom": 159,
+  "bbox_bottom": 19,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1000,
-  "height": 200,
+  "width": 5,
+  "height": 20,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"775307df-8f48-4113-990d-dc0f02d8e222","path":"sprites/sNewClouds/sNewClouds.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"775307df-8f48-4113-990d-dc0f02d8e222","path":"sprites/sNewClouds/sNewClouds.yy",},"LayerId":{"name":"3e976abb-3e83-4f15-b8be-b2591721faea","path":"sprites/sNewClouds/sNewClouds.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sNewClouds","path":"sprites/sNewClouds/sNewClouds.yy",},"resourceVersion":"1.0","name":"775307df-8f48-4113-990d-dc0f02d8e222","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"242eac24-4a96-4a5f-ad50-9dbc6eedd829","path":"sprites/sDistantGround/sDistantGround.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"242eac24-4a96-4a5f-ad50-9dbc6eedd829","path":"sprites/sDistantGround/sDistantGround.yy",},"LayerId":{"name":"89258104-7b83-4ce5-bb68-0f5799a7188c","path":"sprites/sDistantGround/sDistantGround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sDistantGround","path":"sprites/sDistantGround/sDistantGround.yy",},"resourceVersion":"1.0","name":"242eac24-4a96-4a5f-ad50-9dbc6eedd829","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sNewClouds","path":"sprites/sNewClouds/sNewClouds.yy",},
+    "spriteId": {"name":"sDistantGround","path":"sprites/sDistantGround/sDistantGround.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"854ea5be-1310-4ed6-88c9-bd2bf2178626","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"775307df-8f48-4113-990d-dc0f02d8e222","path":"sprites/sNewClouds/sNewClouds.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1f513db2-8d18-4cc2-b9d4-8af8c32cea91","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"242eac24-4a96-4a5f-ad50-9dbc6eedd829","path":"sprites/sDistantGround/sDistantGround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sNewClouds","path":"sprites/sNewClouds/sNewClouds.yy",},
+    "parent": {"name":"sDistantGround","path":"sprites/sDistantGround/sDistantGround.yy",},
     "resourceVersion": "1.3",
-    "name": "sNewClouds",
+    "name": "sDistantGround",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e976abb-3e83-4f15-b8be-b2591721faea","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"89258104-7b83-4ce5-bb68-0f5799a7188c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sNewClouds",
+  "name": "sDistantGround",
   "tags": [],
   "resourceType": "GMSprite",
 }
