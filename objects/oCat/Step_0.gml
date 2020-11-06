@@ -29,6 +29,7 @@ if(grounded == false) {
 		if(jumped == false) {
 			if(playerTryingToJump) {
 				buffer_counter = buffer_max;
+				alarm[1] = 1;
 			}
 		}
 	}
@@ -38,10 +39,17 @@ else {
 	coyote_counter = coyote_max;
 }
 
+if(playerTryingToJump && grounded == false && secondaryMove == true) {
+	secondaryMove = false;
+	vsp = jumpHeight;
+		vsp_f = 0;
+		buffer_counter = 0;
+}
 
+/*
 if(playerTryingToJump) {
 	buffer_counter = buffer_max;
-}
+}*/
 
 if(buffer_counter > 0) {
 	buffer_counter--;
@@ -70,6 +78,7 @@ if(place_meeting(x, y+vsp, oGround) && grounded == false) {
 	}
 	vsp = 0;
 	grounded = true;
+	secondaryMove = false;
 }
 else {
 	grounded = false;

@@ -13,3 +13,5 @@ coyote_counter = 0;
 coyote_max = 6;
 jumped = true;
 grounded = true;
+
+secondaryMove = false;

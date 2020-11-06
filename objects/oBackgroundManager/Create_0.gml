@@ -8,3 +8,6 @@ nearCloudLayer = layer_get_id("NearClouds")
 
 waterMoveMe = 0;
 waterLayer = layer_get_id("Water")
+
+mountainMoveMe = 0;
+mountainLayer = layer_get_id("Mountains")
