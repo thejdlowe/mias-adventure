@@ -38,3 +38,7 @@ function TransitionFinished()
 	layer_sequence_destroy(self.elementID);
 	global.midTransition = false;
 }
+
+function transitionFromLogo() {
+	room_goto(roomTitleScreen);
+}

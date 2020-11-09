@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 randomize();
-room_goto(roomTitleScreen);
+room_goto(roomLogos);

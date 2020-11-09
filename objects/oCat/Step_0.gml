@@ -41,9 +41,16 @@ else {
 
 if(playerTryingToJump && grounded == false && secondaryMove == true) {
 	secondaryMove = false;
-	vsp = jumpHeight;
+	if(oGameManager.isVivi == false) {
+		vsp = jumpHeight;
 		vsp_f = 0;
 		buffer_counter = 0;
+	}
+	else {
+		alarm[0] = -1;
+		myGravity = 0;
+		alarm[0] = 30;
+	}
 }
 
 /*
@@ -54,6 +61,7 @@ if(playerTryingToJump) {
 if(buffer_counter > 0) {
 	buffer_counter--;
 	if(place_meeting(x, y+1, oGround) && room != roomTitleScreen) {
+		
 		vsp = jumpHeight;
 		vsp_f = 0;
 		buffer_counter = 0;
