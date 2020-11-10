@@ -3,7 +3,7 @@
 vsp = 0;
 vsp_max = 10;
 vsp_f = 0;
-jumpHeight = -8 ;
+jumpHeight = -8;
 myGravity = 0.3;
 normalGravity = myGravity;
 

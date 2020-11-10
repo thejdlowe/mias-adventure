@@ -1,11 +1,13 @@
 {
   "resources": [
     {"id":{"name":"sGround","path":"sprites/sGround/sGround.yy",},"order":3,},
+    {"id":{"name":"seqFadeInTitleScreen","path":"sequences/seqFadeInTitleScreen/seqFadeInTitleScreen.yy",},"order":1,},
     {"id":{"name":"oInit","path":"objects/oInit/oInit.yy",},"order":0,},
     {"id":{"name":"sChelle","path":"sprites/sChelle/sChelle.yy",},"order":26,},
     {"id":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},"order":0,},
     {"id":{"name":"oTreeManager","path":"objects/oTreeManager/oTreeManager.yy",},"order":1,},
     {"id":{"name":"sFarClouds","path":"sprites/sFarClouds/sFarClouds.yy",},"order":11,},
+    {"id":{"name":"sPixel","path":"sprites/sPixel/sPixel.yy",},"order":27,},
     {"id":{"name":"roomTitleScreen","path":"rooms/roomTitleScreen/roomTitleScreen.yy",},"order":3,},
     {"id":{"name":"oCloud","path":"objects/oCloud/oCloud.yy",},"order":0,},
     {"id":{"name":"cGround","path":"objects/cGround/cGround.yy",},"order":3,},

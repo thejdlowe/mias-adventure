@@ -5,6 +5,9 @@ function display_write_all_specs(_x, _y) {
 		_str+="x = " + string(oCat.x) + "\n";
 		_str+="y = " + string(oCat.y) + "\n";
 		_str+="vsp = " + string(oCat.vsp) + "\n";
+		_str+="grounded = " + ((oCat.grounded) ? "true" : "false") + "\n";
+		_str+="buffer_counter = " + string(oCat.buffer_counter) + "\n";
+		_str+="myGravity = " + string(oCat.myGravity) + "\n";
 	}
 	/*
 	_str+=display_write_spec(display.Screen)+"\n";
