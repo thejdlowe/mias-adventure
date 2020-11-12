@@ -1,3 +1,4 @@
+//if(room == roomTitleScreen) exit;
 if(y > 500) {
 	
 	var temp = surface_create(display_get_width(), display_get_height());
@@ -13,8 +14,8 @@ if(y > 500) {
 }
 
 // Input
-var playerTryingToJump    =    oControls.jump;
-var playerHoldingJump    =    oControls.jumpHeld;
+var playerTryingToJump    =    oControls.jump && (room != roomTitleScreen);
+var playerHoldingJump    =    oControls.jumpHeld && (room != roomTitleScreen);
 
 // Change vsp by gravity
 
