@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b0870a61-0f93-4d0d-82f1-4b14658f5593","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Intro",
+    "path": "folders/Sprites/Intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "sLogoAdventure",

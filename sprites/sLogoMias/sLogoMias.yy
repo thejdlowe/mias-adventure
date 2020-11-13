@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c07ae103-bc63-42e8-be3a-aa631a940810","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Intro",
+    "path": "folders/Sprites/Intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "sLogoMias",

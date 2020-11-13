@@ -9,16 +9,6 @@ function display_write_all_specs(_x, _y) {
 		_str+="buffer_counter = " + string(oCat.buffer_counter) + "\n";
 		_str+="myGravity = " + string(oCat.myGravity) + "\n";
 	}
-	/*
-	_str+=display_write_spec(display.Screen)+"\n";
-	_str+=display_write_spec(display.Window)+"\n";
-	_str+=display_write_spec(display.Gui)+"\n";
-	_str+=display_write_spec(display.AppSurface)+"\n";
-	_str+=display_write_spec(display.View)+"\n";
-	_str+="Camera x = " + string(camera_get_view_x(view_camera[0])) + "\n";
-	_str+="Camera y = " + string(camera_get_view_y(view_camera[0])) + "\n";
-	*/
-	//draw_text(argument0,argument1,_str);
 
 	outlinedText(_x, _y, c_black, c_white, _str)
 }

@@ -59,6 +59,8 @@ if (playerHoldingJump && buffer_counter-- > 0){
         // Double jump as special character
         if(oGameManager.isVivi) {
             myGravity = 0;
+			vsp = 0;
+			vsp_f = 0;
             alarm[0] = 30;
         }
         else {
