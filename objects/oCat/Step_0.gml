@@ -1,6 +1,6 @@
 //if(room == roomTitleScreen) exit;
 if(y > 500) {
-	
+	/*
 	var temp = surface_create(display_get_width(), display_get_height());
 	surface_set_target(temp);
 	draw_surface(application_surface, 0, 0);
@@ -9,6 +9,9 @@ if(y > 500) {
 	with (instance_create_layer(x, y, "Managers", oGameOverManager)) {
 		surf = temp;
 	}
+	*/
+	var _lay = layer_create(-9999,"transition")
+	layer_sequence_create(_lay,0,0,seqYouDied);	
 	instance_destroy();
 	exit;
 }

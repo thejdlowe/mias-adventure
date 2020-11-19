@@ -7,3 +7,11 @@ if(room == roomTitleScreen) {
 		room_goto(roomGame);
 	}
 }
+else {
+	var f2 = oControls.restartGame;
+	if(f2) {
+		if(!instance_exists(oCat)) {
+			room_restart();
+		}
+	}
+}

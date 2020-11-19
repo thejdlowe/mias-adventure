@@ -4,3 +4,5 @@
 jump = 0;
 jumpHeld = 0;
 startGame = 0;
+
+restartGame = false;
