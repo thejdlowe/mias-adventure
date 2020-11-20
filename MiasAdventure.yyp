@@ -46,6 +46,7 @@
     {"id":{"name":"oGuiManager","path":"objects/oGuiManager/oGuiManager.yy",},"order":5,},
     {"id":{"name":"seqYouDied","path":"sequences/seqYouDied/seqYouDied.yy",},"order":3,},
     {"id":{"name":"Debugs","path":"scripts/Debugs/Debugs.yy",},"order":1,},
+    {"id":{"name":"sMountain3","path":"sprites/sMountain3/sMountain3.yy",},"order":39,},
     {"id":{"name":"sLogoMias","path":"sprites/sLogoMias/sLogoMias.yy",},"order":3,},
     {"id":{"name":"sYouDied","path":"sprites/sYouDied/sYouDied.yy",},"order":37,},
     {"id":{"name":"outlinedText","path":"scripts/outlinedText/outlinedText.yy",},"order":0,},

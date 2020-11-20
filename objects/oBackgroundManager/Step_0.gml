@@ -3,6 +3,7 @@
 var farCloudRate = 0.09;
 //var mountainRate = 0.05;
 var mountainRate = 0.04;
+var closermountainRate = 0.2;
 var nearCloudRate = 0.8;
 var waterRate = abs(oGameManager.currSpeed);
 farCloudMoveMe += farCloudRate;
@@ -16,3 +17,6 @@ layer_x(waterLayer, x - waterMoveMe);
 
 mountainMoveMe += mountainRate;
 layer_x(mountainLayer, x - mountainMoveMe);
+
+closermountainMoveMe += closermountainRate;
+layer_x(closermountainLayer, x - closermountainMoveMe);

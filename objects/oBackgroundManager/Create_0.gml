@@ -11,3 +11,6 @@ waterLayer = layer_get_id("Water")
 
 mountainMoveMe = 0;
 mountainLayer = layer_get_id("Mountains")
+
+closermountainMoveMe = 0;
+closermountainLayer = layer_get_id("CloserMountains")
