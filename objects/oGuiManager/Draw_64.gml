@@ -4,4 +4,5 @@ if(room == roomTitleScreen) exit;
 	
 draw_set_valign(fa_middle);
 var s = string(oGameManager.currScore);
-outlinedText(500, 10, c_black, c_white, s)
+draw_set_font(fontScore)
+outlinedText(500, 20, c_black, c_white, s)

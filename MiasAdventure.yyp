@@ -21,6 +21,7 @@
     {"id":{"name":"oBackgroundManager","path":"objects/oBackgroundManager/oBackgroundManager.yy",},"order":2,},
     {"id":{"name":"oGroundManager","path":"objects/oGroundManager/oGroundManager.yy",},"order":3,},
     {"id":{"name":"sDistantGround","path":"sprites/sDistantGround/sDistantGround.yy",},"order":25,},
+    {"id":{"name":"fontScore","path":"fonts/fontScore/fontScore.yy",},"order":0,},
     {"id":{"name":"roomLogos","path":"rooms/roomLogos/roomLogos.yy",},"order":4,},
     {"id":{"name":"sCloud","path":"sprites/sCloud/sCloud.yy",},"order":7,},
     {"id":{"name":"sLogoFull","path":"sprites/sLogoFull/sLogoFull.yy",},"order":4,},
