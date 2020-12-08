@@ -9,17 +9,8 @@ genCounter = 0;
 for(var i = 0;i<groundCount;i++) {
 	
 	with (instance_create_layer(32 * i, 362, "Ground", oGround)) {
-		myStep = oGameManager.currSpeed;
+		myStep = oGameManager.currSpeed + 0;
 	}
 }
 
-/*
-if(instance_exists(oLogo)) {
-	alarm[1] = demoTimer
-}
-else {
-//240
-alarm[0] = 230
-}
-*/
 alarm[1] = 230

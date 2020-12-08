@@ -1,4 +1,4 @@
-/// @description Demo mode
+/// @description Ground me, baby
 var whatToGenerate = noone;
 
 if(genCounter <= 0) {
@@ -34,7 +34,7 @@ if(instance_exists(oLogo)) {
 }
 if(whatToGenerate != noone) {
 	with (instance_create_layer(600, 362, "Ground", whatToGenerate)) {
-		myStep = oGameManager.currSpeed;
+		myStep = oGameManager.currSpeed + 0;
 	}
 }
 alarm[1] = demoTimer
