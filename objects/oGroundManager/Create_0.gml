@@ -6,6 +6,10 @@ demoTimer = 6;
 lastGenerated = "ground";
 genCounter = 0;
 
+maxHeight = 362;
+
+currHeight = maxHeight;
+
 for(var i = 0;i<groundCount;i++) {
 	
 	with (instance_create_layer(32 * i, 362, "Ground", oGround)) {

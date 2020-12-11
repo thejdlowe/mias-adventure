@@ -30,7 +30,7 @@ else {
 if(room == roomTitleScreen) whatToGenerate = oGround;
 
 if(whatToGenerate != noone) {
-	with (instance_create_layer(600, 362, "Ground", whatToGenerate)) {
+	with (instance_create_layer(600, currHeight, "Ground", whatToGenerate)) {
 		myStep = oGameManager.currSpeed + 0;
 	}
 }
