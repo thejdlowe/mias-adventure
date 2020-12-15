@@ -11,6 +11,18 @@ if(genCounter <= 0) {
 	if(lastGenerated == "ground") {
 		genCounter = irandom_range(5, 15);
 		//here's where the height logic should go
+		var whichWay = choose(1,-1);
+		var changer;
+		if(whichWay == 1) {
+			changer = irandom_range(25,100);
+			if(currHeight + changer > maxHeight) currHeight = maxHeight;
+			else currHeight += changer;
+		}
+		else {
+			changer = irandom_range(-25,-100);
+			if(currHeight + changer < minHeight) currHeight = minHeight;
+			else currHeight += changer;
+		}
 	}
 	else {
 		genCounter = irandom_range(4, 6);

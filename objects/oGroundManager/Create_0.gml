@@ -7,6 +7,7 @@ lastGenerated = "ground";
 genCounter = 0;
 
 maxHeight = 362;
+minHeight = 250;
 
 currHeight = maxHeight;
 
