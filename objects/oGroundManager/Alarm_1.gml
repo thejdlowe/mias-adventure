@@ -14,12 +14,12 @@ if(genCounter <= 0) {
 		var whichWay = choose(1,-1);
 		var changer;
 		if(whichWay == 1) {
-			changer = irandom_range(25,100);
+			changer = irandom_range(50,100);
 			if(currHeight + changer > maxHeight) currHeight = maxHeight;
 			else currHeight += changer;
 		}
 		else {
-			changer = irandom_range(-25,-100);
+			changer = irandom_range(-50,-100);
 			if(currHeight + changer < minHeight) currHeight = minHeight;
 			else currHeight += changer;
 		}
@@ -39,7 +39,10 @@ else {
 	whatToGenerate = noone;
 }
 
-if(room == roomTitleScreen) whatToGenerate = oGround;
+if(room == roomTitleScreen) {
+	whatToGenerate = oGround;
+	currHeight = maxHeight;
+}
 
 if(whatToGenerate != noone) {
 	with (instance_create_layer(600, currHeight, "Ground", whatToGenerate)) {
