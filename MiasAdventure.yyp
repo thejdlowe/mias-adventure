@@ -13,6 +13,7 @@
     {"id":{"name":"roomTitleScreen","path":"rooms/roomTitleScreen/roomTitleScreen.yy",},"order":3,},
     {"id":{"name":"oCloud","path":"objects/oCloud/oCloud.yy",},"order":0,},
     {"id":{"name":"cGround","path":"objects/cGround/cGround.yy",},"order":3,},
+    {"id":{"name":"sFlower1","path":"sprites/sFlower1/sFlower1.yy",},"order":3,},
     {"id":{"name":"sSky","path":"sprites/sSky/sSky.yy",},"order":2,},
     {"id":{"name":"sMiaNew","path":"sprites/sMiaNew/sMiaNew.yy",},"order":18,},
     {"id":{"name":"oGameOverManager","path":"objects/oGameOverManager/oGameOverManager.yy",},"order":6,},
@@ -117,14 +118,14 @@
     {"folderPath":"folders/Sprites/Grasses.yy","order":42,"resourceVersion":"1.0","name":"Grasses","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
-    {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.536",
+    "IDEVersion": "2.3.1.542",
   },
   "resourceVersion": "1.4",
   "name": "MiasAdventure",
