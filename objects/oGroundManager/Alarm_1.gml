@@ -1,6 +1,7 @@
 /// @description Ground me, baby
 var whatToGenerate = noone;
-
+isFirst = false;
+isLast = false;
 if(genCounter <= 0) {
 	if(lastGenerated == "gap") {
 		lastGenerated = "ground";
@@ -10,6 +11,7 @@ if(genCounter <= 0) {
 	}
 	if(lastGenerated == "ground") {
 		genCounter = irandom_range(5, 15);
+		isFirst = true;
 		//here's where the height logic should go
 		var whichWay = choose(1,-1);
 		var changer;
@@ -29,6 +31,7 @@ if(genCounter <= 0) {
 	}
 }
 else {
+	if(genCounter == 1) isLast = true;
 	genCounter--;
 }
 
@@ -47,6 +50,9 @@ if(room == roomTitleScreen) {
 if(whatToGenerate != noone) {
 	with (instance_create_layer(600, currHeight, "Ground", whatToGenerate)) {
 		myStep = oGameManager.currSpeed + 0;
+		image_index = 1;
+		if(other.isLast == true) image_index = 2;
+		if(other.isFirst == true) image_index = 0;
 	}
 }
 alarm[1] = demoTimer
