@@ -16,7 +16,7 @@ if(irandom_range(1, 20) == 1) {
 
 childObject = noone;
 
-childDiff = 5;
+childDiff = 10;
 
 if(irandom_range(1,10)== 1) {
 	var lay = choose("Grass1", "Grass2");

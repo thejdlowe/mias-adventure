@@ -11,6 +11,8 @@ minHeight = 150;
 
 currHeight = maxHeight;
 i = 0;
+
+makeBonus = false;
 for(i = 0;i<groundCount;i++) {
 	
 	with (instance_create_layer(32 * i, currHeight, "Ground", oGround)) {
@@ -23,3 +25,4 @@ for(i = 0;i<groundCount;i++) {
 }
 
 alarm[1] = 230
+alarm[2] = irandom_range(5, 15) * room_speed;

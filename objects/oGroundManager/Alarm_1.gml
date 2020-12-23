@@ -17,8 +17,11 @@ if(genCounter <= 0) {
 		var changer;
 		if(whichWay == 1) {
 			changer = irandom_range(50,100);
+			var diff = maxHeight - (currHeight + changer);
 			if(currHeight + changer > maxHeight) currHeight = maxHeight;
-			else currHeight += changer;
+			else {
+				if(diff > 32) currHeight += changer;
+			}
 		}
 		else {
 			changer = irandom_range(-50,-100);
@@ -53,6 +56,11 @@ if(whatToGenerate != noone) {
 		image_index = 1;
 		if(other.isLast == true) image_index = 2;
 		if(other.isFirst == true) image_index = 0;
+	}
+	if(makeBonus == true) {
+		makeBonus = false;
+		if(room != roomTitleScreen) instance_create_layer(600, currHeight - 90, "Player", oPineapple);
+		alarm[2] = irandom_range(5, 15) * room_speed;
 	}
 }
 alarm[1] = demoTimer
